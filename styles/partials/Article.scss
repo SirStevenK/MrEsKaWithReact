@@ -1,0 +1,23 @@
+#article {
+    $pa-bd-radius: 30px;
+    margin-top: 50px;
+    background: #c8d6e5;
+    border: 4px solid black;
+    border-radius: $pa-bd-radius;
+    display: flex;
+    flex-direction: column;
+    min-height: 700px;
+    flex: 0 1 46%;
+    max-width: 760px; 
+    .main-img {
+        border-top-left-radius: $pa-bd-radius;
+        border-top-right-radius: $pa-bd-radius;
+        object-fit: fill;
+        width: 100%;
+        max-height: 400px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+}

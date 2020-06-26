@@ -1,0 +1,75 @@
+{
+  "articles": [
+    {
+      "category": "Tutorial",
+      "content": "<p>Test</p><p><strong>Test1</strong></p><p><strong><em>Test2</em></strong></p><p><strong><u>Test3</u></strong></p><p><em><u>Test4</u></em></p><p><strong><em><u>Test5</u></em></strong></p>",
+      "description": "test description",
+      "mainImageUrl": "/images/javascript.png",
+      "name": "Apprendre le javascript",
+      "url": "/articles/javascript"
+    },
+    {
+      "category": "Tutorial",
+      "content": "<p>Test</p><p><strong>Test1</strong></p><p><strong><em>Test2</em></strong></p><p><strong><u>Test3</u></strong></p><p><em><u>Test4</u></em></p><p><strong><em><u>Test5</u></em></strong></p>",
+      "description": "Superbe description de l'article sur le TypeScript\n---- ----",
+      "mainImageUrl": "/images/ts.png",
+      "name": "Apprendre le TypeScript",
+      "url": "/articles/typescript"
+    },
+    {
+      "category": "Tutorial",
+      "content": "<p>Test</p><p><strong>Test1</strong></p><p><strong><em>Test2</em></strong></p><p><strong><u>Test3</u></strong></p><p><em><u>Test4</u></em></p><p><strong><em><u>Test5</u></em></strong></p>",
+      "description": "",
+      "mainImageUrl": "/images/javascript.png",
+      "name": "Apprendre le javascript Nested",
+      "url": "/articles/javascript/javascript"
+    }
+  ],
+  "images": [
+    {
+      "name": "zaezea",
+      "path": "./public/images/zaezea.png",
+      "url": "/images/zaezea.png"
+    },
+    {
+      "name": "eee",
+      "path": "./public/images/eee.png",
+      "url": "/images/eee.png"
+    },
+    {
+      "name": "aaa",
+      "path": "./public/images/aaa.png",
+      "url": "/images/aaa.png"
+    },
+    {
+      "name": "test",
+      "path": "./public/images/test.png",
+      "url": "/images/test.png"
+    },
+    {
+      "name": "vis",
+      "path": "./public/images/vis.png",
+      "url": "/images/vis.png"
+    },
+    {
+      "name": "vis2",
+      "path": "./public/images/vis2.png",
+      "url": "/images/vis2.png"
+    },
+    {
+      "name": "javascript",
+      "path": "./public/images/javascript.png",
+      "url": "/images/javascript.png"
+    },
+    {
+      "name": "ts",
+      "path": "./public/images/ts.png",
+      "url": "/images/ts.png"
+    },
+    {
+      "name": "logoEsKa",
+      "path": "./public/images/logoEsKa.png",
+      "url": "/images/logoEsKa.png"
+    }
+  ]
+}

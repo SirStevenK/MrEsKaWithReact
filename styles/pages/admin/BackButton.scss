@@ -1,0 +1,13 @@
+.back-button {
+    position: absolute;
+    top: 25px;
+    padding: 10px 15px;
+
+    font-family: Acme;
+    font-size: 1.25rem;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 3px solid darken($color: #747d8c, $amount: 8%);
+    border-bottom: 3px solid darken($color: #747d8c, $amount: 16%);
+    background-color: #747d8c;
+}

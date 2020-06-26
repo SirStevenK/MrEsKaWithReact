@@ -1,0 +1,14 @@
+#fil {
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .item {
+        flex: 0 0 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0;
+    }
+}

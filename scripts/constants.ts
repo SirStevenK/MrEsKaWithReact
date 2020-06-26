@@ -1,0 +1,1 @@
+export const ALL_CATEGORY:FilTypes[] = ['AnalyseJV', 'Creation', 'DevJV', 'Tutorial']

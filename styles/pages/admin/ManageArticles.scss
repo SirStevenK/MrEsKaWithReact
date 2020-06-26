@@ -1,0 +1,68 @@
+@import "../../Color.scss";
+
+:global {
+    .container {
+        width: 100%;
+        max-width: 1200px;
+    }
+}
+
+#manage-articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    background: #f1f2f6;
+    border: 3px solid #2f3542;
+    border-radius: 30px;
+    min-height: 480px;
+    width: 100%;
+    max-width: 1200px;
+
+    .title {
+        font-size: 1.4rem;
+        font-family: Permanent Marker;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .box-table {
+        border: 1px solid black;
+        overflow-y: auto;
+        max-height: 400px;
+    }
+
+    table {
+        overflow: auto;
+        border-collapse: collapse;
+        width: 100%;
+        text-align: left;
+
+        th, td {
+            padding: 2px 8px;
+        }
+        th {
+            padding-top: 4px;
+        }
+        tr > * + * {
+            border-left: 1px solid black;
+        }
+
+        thead tr {
+            background: #737375;
+            border-bottom: 1px solid black;
+        }
+        
+        tbody tr:nth-child(2n) {
+            background: #D7D8DB;
+        }
+        tbody tr:nth-child(2n+1) {
+            background: #B1B2B5;
+        }
+        tbody tr:hover {
+            cursor: pointer;
+            background: #737375;
+        }
+        
+    }
+}
