@@ -70,6 +70,16 @@
       "name": "logoEsKa",
       "path": "./public/images/logoEsKa.png",
       "url": "/images/logoEsKa.png"
+    },
+    {
+      "name": "aaaz",
+      "path": "./public/images/aaaz.png",
+      "url": "/images/aaaz.png"
+    },
+    {
+      "name": "za",
+      "path": "./files/images/za.png",
+      "url": "/images/za.png"
     }
   ]
 }

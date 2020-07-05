@@ -15,7 +15,7 @@ export default (req:NextApiRequest, res:NextApiResponse) => {
                     let imageFile:formidable.File = files.image;
                     let image:ImageAttributes = {
                         name: fields.name,
-                        path: `./public/images/${fields.name}.${imageFile.type.substring(6)}`,
+                        path: `./files/images/${fields.name}.${imageFile.type.substring(6)}`,
                         url: `/images/${fields.name}.${imageFile.type.substring(6)}`
                     }
                     if (db.addImage(image)) {
